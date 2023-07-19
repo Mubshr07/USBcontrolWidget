@@ -1,0 +1,115 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/022-connection.png</file>
+        <file>icons/105-tool.png</file>
+        <file>icons/114-voltage.png</file>
+        <file>icons/2x_board-add.png</file>
+        <file>icons/2x_board-check.png</file>
+        <file>icons/2x_book-holder-2.png</file>
+        <file>icons/2x_book-holder.png</file>
+        <file>icons/2x_drawer.png</file>
+        <file>icons/2x_folder-flat.png</file>
+        <file>icons/2x_left-arrow-39.png</file>
+        <file>icons/2x_left3-arrow.png</file>
+        <file>icons/2x_right-arrow-40.png</file>
+        <file>icons/2x_right3-arrow.png</file>
+        <file>icons/Alert.png</file>
+        <file>icons/background.png</file>
+        <file>icons/Binders.png</file>
+        <file>icons/Books.png</file>
+        <file>icons/Box-File.png</file>
+        <file>icons/Cabinet.png</file>
+        <file>icons/Communication-Line.png</file>
+        <file>icons/Compass.png</file>
+        <file>icons/Contact-Checked.png</file>
+        <file>icons/Contact-Lock.png</file>
+        <file>icons/Contact-Minus.png</file>
+        <file>icons/Contact-Plus.png</file>
+        <file>icons/Contact.png</file>
+        <file>icons/Equalizer.png</file>
+        <file>icons/Folder-Settings.png</file>
+        <file>icons/Folder.png</file>
+        <file>icons/Folders.png</file>
+        <file>icons/Home.png</file>
+        <file>icons/Key.png</file>
+        <file>icons/Left.png</file>
+        <file>icons/Location.png</file>
+        <file>icons/loginProfile.png</file>
+        <file>icons/Nr.0.png</file>
+        <file>icons/Nr.1.png</file>
+        <file>icons/Nr.2.png</file>
+        <file>icons/Nr.3.png</file>
+        <file>icons/Nr.4.png</file>
+        <file>icons/Nr.5.png</file>
+        <file>icons/Nr.6.png</file>
+        <file>icons/Nr.7.png</file>
+        <file>icons/Nr.8.png</file>
+        <file>icons/Nr.9.png</file>
+        <file>icons/office-tallboy@High.png</file>
+        <file>icons/OK (2).png</file>
+        <file>icons/Ok.png</file>
+        <file>icons/On (2).png</file>
+        <file>icons/On.png</file>
+        <file>icons/pakistan Flag rectangle.png</file>
+        <file>icons/Pakistan Flag Round.png</file>
+        <file>icons/Plus.png</file>
+        <file>icons/Record.png</file>
+        <file>icons/Refresh.png</file>
+        <file>icons/Reload.png</file>
+        <file>icons/Remove (2).png</file>
+        <file>icons/Remove.png</file>
+        <file>icons/Right-Down.png</file>
+        <file>icons/Right.png</file>
+        <file>icons/Settings.png</file>
+        <file>icons/Stamp-2.png</file>
+        <file>icons/Stamp.png</file>
+        <file>icons/Unlocked.png</file>
+        <file>icons/Up.png</file>
+        <file>icons/VGA-Plug.png</file>
+        <file>icons/VGA-Socket.png</file>
+        <file>StyleSheets/Internet Icons 4/aol art csl.ico</file>
+        <file>StyleSheets/Internet Icons 4/asf asx.ico</file>
+        <file>StyleSheets/Internet Icons 4/class.ico</file>
+        <file>StyleSheets/Internet Icons 4/dir.ico</file>
+        <file>StyleSheets/Internet Icons 4/gif.ico</file>
+        <file>StyleSheets/Internet Icons 4/htm.ico</file>
+        <file>StyleSheets/Internet Icons 4/jpg.ico</file>
+        <file>StyleSheets/Internet Icons 4/js vb.ico</file>
+        <file>StyleSheets/Internet Icons 4/mhtml.ico</file>
+        <file>StyleSheets/Internet Icons 4/ocx.ico</file>
+        <file>StyleSheets/Internet Icons 4/real ram rm .ico</file>
+        <file>StyleSheets/Internet Icons 4/sfw.ico</file>
+        <file>StyleSheets/Internet Icons 4/Temp Internet Files.ico</file>
+        <file>StyleSheets/Internet Icons 4/txt.ico</file>
+        <file>StyleSheets/Internet Icons 4/url.ico</file>
+        <file>StyleSheets/Internet Icons 4/wrl.ico</file>
+        <file>StyleSheets/Internet Icons 4/zip.ico</file>
+        <file>StyleSheets/QSS_IMG/go-down-symbolic.symbolic.png</file>
+        <file>StyleSheets/QSS_IMG/go-next-symbolic.symbolic.png</file>
+        <file>StyleSheets/QSS_IMG/go-previous-symbolic.symbolic.png</file>
+        <file>StyleSheets/QSS_IMG/go-up-symbolic.symbolic.png</file>
+        <file>StyleSheets/QSS_IMG/object-select-symbolic.symbolic.png</file>
+        <file>StyleSheets/AMOLED.qss</file>
+        <file>StyleSheets/Aqua.qss</file>
+        <file>StyleSheets/Chatbee.qss</file>
+        <file>StyleSheets/Combinear.qss</file>
+        <file>StyleSheets/ConsoleStyle.qss</file>
+        <file>StyleSheets/Devsion.qss</file>
+        <file>StyleSheets/Diplaytap.qss</file>
+        <file>StyleSheets/ElegantDark.qss</file>
+        <file>StyleSheets/Fibrary.qss</file>
+        <file>StyleSheets/Genetive.qss</file>
+        <file>StyleSheets/Hookmark.qss</file>
+        <file>StyleSheets/MacOS.qss</file>
+        <file>StyleSheets/ManjaroMix.qss</file>
+        <file>StyleSheets/MaterialDark.qss</file>
+        <file>StyleSheets/NeonButtons.qss</file>
+        <file>StyleSheets/Obit.qss</file>
+        <file>StyleSheets/PicPax.qss</file>
+        <file>StyleSheets/SyNet.qss</file>
+        <file>StyleSheets/Toolery.qss</file>
+        <file>StyleSheets/Ubuntu.qss</file>
+        <file>StyleSheets/VisualScript.qss</file>
+        <file>StyleSheets/Wstartpage.qss</file>
+    </qresource>
+</RCC>

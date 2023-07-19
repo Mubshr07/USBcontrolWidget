@@ -1,0 +1,492 @@
+/*Copyright (c) DevSec Studio. All rights reserved.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*-----QWidget-----*/
+QWidget
+{
+	background-color: #878d8b;
+	color: #000000;
+	border-color: #000000;
+
+}
+
+
+/*-----QMenuBar-----*/
+QMenuBar
+{
+	background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(61, 61, 61, 255),stop:0.514423 rgba(89, 89, 89, 255),stop:1 rgba(98, 98, 98, 255));
+	color: #cccccc;
+	border-color: #000000;
+
+}
+
+
+QMenuBar::item
+{
+    background-color: transparent;
+
+}
+
+
+QMenuBar::item:selected
+{
+	background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(139, 139, 139, 255),stop:0.514423 rgba(89, 89, 89, 255),stop:1 rgba(152, 152, 152, 255));
+	color: #fff;
+
+}
+
+
+QMenuBar::item:pressed
+{
+    background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(39, 39, 39, 255),stop:0.514423 rgba(89, 89, 89, 255),stop:1 rgba(52, 52, 52, 255));
+    border: 1px solid #5ab8a0;
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+
+}
+
+
+/*-----QMenu-----*/
+QMenu
+{
+    background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(61, 61, 61, 255),stop:0.514423 rgba(89, 89, 89, 255),stop:1 rgba(78, 78, 78, 255));
+    border: 1px solid;
+    color: lightgray;
+
+}
+
+
+QMenu::separator
+{
+    height: 1px;
+    background-color: #000;
+    color: #ffffff;
+    padding-left: 4px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+
+QMenu::item
+{
+    min-width : 150px;
+    padding: 3px 20px 3px 20px;
+
+}
+
+
+QMenu::item:selected
+{
+    background-color: #cdceb1;
+    color: #000;
+
+}
+
+
+/*-----QPushButton-----*/
+QPushButton
+{
+	background-color: #cdceb1;
+	color: #000000;
+        border:1px solid #dfdfc0;
+        border-radius: 4px;
+        margin: 2px;
+        padding:5px;
+        padding-left:10px;
+        padding-right:10px;
+        font:700 18pt "Azonix";
+}
+QPushButton::disabled
+{
+        background-color: #dfdfc0;
+        color: white;
+        border:1px solid transparent;
+        border-radius: 4px;
+        margin: 2px;
+        padding:5px;
+        padding-left:10px;
+        padding-right:10px;
+}
+QPushButton::pressed
+{
+    background-color: #cdceb1;
+    color: #000000;
+    border:3px solid grey;
+    border-bottom: 3px solid white;
+    border-radius: 4px;
+    margin: 2px;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+/*-----QLineEdit-----*/
+QLineEdit
+{
+        background-color: #a6d072;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        font:400 16pt "Azonix";
+}
+QLineEdit::focus
+{
+        background-color: #a6d072;
+        color: #000000;
+        border: 3px solid grey;
+        border-bottom: 3px solid white;
+        border-radius: 4px;
+        font:900 16pt "Azonix";
+
+}
+
+
+
+/*-----QGroupBox-----*/
+QGroupBox
+{
+    background-color: #1f2b2b;
+    border: 1px inset #000;
+    margin-top: 22px;
+        margin-left: 1px;
+
+}
+
+
+QGroupBox::title
+{
+    background-color: #1f2b2b;
+    color: #ffffff;
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    margin-left: 1px;
+    padding: 5px;
+
+}
+
+
+QGroupBox::title::disabled
+{
+    background-color: #404040;
+    color: #656565;
+}
+
+
+
+/*-----QTabWidget-----*/
+QTabBar::tab
+{
+        background-color: #5ab8a0;
+        color: #ffffff;
+        border: 1px solid #051a39;
+        padding: 5px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+}
+QTabBar::tab:disabled
+{
+        background-color: #656565;
+        color: #656565;
+}
+QTabWidget::pane
+{
+    background-color: transparent;
+    border: 1px solid #1f2b2b;
+}
+QTabBar::tab:selected
+{
+    background-color: #5ab8a0;
+    color: #ffffff;
+    border: 1px solid #051a39;
+    padding: 5px;
+}
+QTabBar::tab:selected:disabled
+{
+        background-color: #404040;
+        color: #656565;
+}
+QTabBar::tab:!selected
+{
+    background-color: #262626;
+}
+QTabBar::tab:!selected:hover
+{
+    background-color: #1f2b2b;
+}
+QTabBar::tab:top:!selected
+{
+    margin-top: 5px;
+}
+QTabBar::tab:bottom:!selected
+{
+    margin-bottom: 5px;
+}
+QTabBar::tab:top, QTabBar::tab:bottom
+{
+    min-width: 8ex;
+    margin-right: -1px;
+    padding: 5px 10px 5px 10px;
+}
+QTabBar::tab:top:selected
+{
+    border-bottom-color: none;
+}
+QTabBar::tab:bottom:selected
+{
+    border-top-color: none;
+}
+QTabBar::tab:top:last, QTabBar::tab:bottom:last,
+QTabBar::tab:top:only-one, QTabBar::tab:bottom:only-one
+{
+    margin-right: 15px;
+}
+QTabBar::tab:left:!selected
+{
+    margin-right: 5px;
+}
+QTabBar::tab:right:!selected
+{
+    margin-left: 5px;
+}
+QTabBar::tab:left, QTabBar::tab:right
+{
+    min-height: 8ex;
+    margin-bottom: -1px;
+    padding: 10px 5px 10px 5px;
+}
+QTabBar::tab:left:selected
+{
+    border-left-color: none;
+}
+QTabBar::tab:right:selected
+{
+    border-right-color: none;
+}
+QTabBar::tab:right:last, QTabBar::tab:right:only-one
+{
+    margin-bottom: 10px;
+}
+QTabBar::tab:left:last, QTabBar::tab:left:only-one
+{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/*-----QComboBox-----*/
+QComboBox
+{
+    background-color: #a9a9aa;
+    border: 1px solid;
+    padding-left: 10px;
+    color: #000;
+    height: 20px;
+    font:700 16pt "Azonix";
+}
+QComboBox::disabled
+{
+        background-color: #404040;
+        color: #656565;
+        border-color: #051a39;
+}
+QComboBox:on
+{
+    background-color: #f8f6f0;
+}
+QComboBox QAbstractItemView
+{
+    background-color: #383838;
+    color: #ffffff;
+    border: 1px solid black;
+    selection-background-color: #488f44;
+    selection-color: #ffffff;
+    outline: 0;
+
+}
+QComboBox::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 40px;
+}
+QComboBox::down-arrow
+{
+    background-color: #383838;
+    image: url(:/icons/Right-Down.png) 26px 26px;
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid black;
+}
+
+
+
+/*-----QSpinBox & QDoubleSpinBox & QDateTimeEdit-----*/
+QSpinBox,
+QDoubleSpinBox,
+QDateTimeEdit
+{
+        background-color: #f6f6f6;
+        color: #000;
+        border: 1px solid #a9a9aa;
+        padding : 2px;
+}
+QSpinBox::disabled,
+QDoubleSpinBox::disabled,
+QDateTimeEdit::disabled
+{
+        background-color: #404040;
+        color: #656565;
+        border-color: #051a39;
+}
+QSpinBox:hover,
+QDoubleSpinBox::hover,
+QDateTimeEdit::hover
+{
+    background-color: #a9a9aa;
+    border: 1px solid #a9a9aa;
+    color:  #000;
+    padding: 2px
+}
+QSpinBox::up-button, QSpinBox::down-button,
+QDoubleSpinBox::up-button, QDoubleSpinBox::down-button,
+QDateTimeEdit::up-button, QDateTimeEdit::down-button
+{
+    background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0.100962 rgba(34, 166, 178, 255),stop:0.543269 rgba(132, 213, 51, 255),stop:1 rgba(208, 255, 163, 255));
+}
+QSpinBox::disabled,
+QDoubleSpinBox::disabled,
+QDateTimeEdit::disabled
+{
+        background-color: #404040;
+        color: #656565;
+        border-color: #051a39;
+}
+QSpinBox::up-button:hover, QSpinBox::down-button:hover,
+QDoubleSpinBox::up-button:hover, QDoubleSpinBox::down-button:hover,
+QDateTimeEdit::up-button:hover, QDateTimeEdit::down-button:hover
+{
+    background-color: #92dd48;
+    border: 1px solid #92dd48;
+}
+QSpinBox::up-button:disabled, QSpinBox::down-button:disabled,
+QDoubleSpinBox::up-button:disabled, QDoubleSpinBox::down-button:disabled,
+QDateTimeEdit::up-button:disabled, QDateTimeEdit::down-button:disabled
+{
+        background-color: #404040;
+        color: #656565;
+        border-color: #051a39;
+}
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed,
+QDoubleSpinBox::up-button:pressed, QDoubleSpinBox::down-button::pressed,
+QDateTimeEdit::up-button:pressed, QDateTimeEdit::down-button::pressed
+{
+    background-color: #57a951;
+    border: 1px solid #57a951;
+}
+QSpinBox::down-arrow,
+QDoubleSpinBox::down-arrow,
+QDateTimeEdit::down-arrow
+{
+    image: url(://arrow-down.png);
+    width: 7px;
+}
+QSpinBox::up-arrow,
+QDoubleSpinBox::up-arrow,
+QDateTimeEdit::up-arrow
+{
+    image: url(://arrow-up.png);
+    width: 7px;
+}
+
+
+/*-----QLabel-----*/
+QLabel
+{
+    background-color: transparent;
+    color: #c2c7d5;
+    color: #000;
+    font:750 22px "Ubuntu";
+
+}
+
+
+
+Line, QLine {
+    color: #a6d072;
+    background-color: #a6d072;
+    width : 2px;
+    height : 2px;
+}
+
+
+#titleframe {
+    background-color: transparent;
+    color: #a6d072;
+    border: 0px inset #a6d072;
+    border-radius: 0px;
+    border-bottom: 3px solid white;
+}
+#titleText {
+    background-color: transparent;
+    color: #a6d072;
+    color: blue;
+    font: 850 20pt "Arial Rounded Bold";
+}
+#mainframe , #mainFrame {
+    margin: 5px;
+    padding: 10px;
+    background-color: #878d8b;
+    color: #000000;
+    border: 3px inset #a6d072;
+    border-radius: 15px;
+}
+#pbChangePassword {
+    padding-left:10px;
+    padding-right:10px;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+#pbChangePassword::focus {
+    padding-left:10px;
+    padding-right:10px;
+    border: 2px solid #cdceb1;
+    background-color: transparent;
+}
+
+#titleTestText {
+    background-color: white;
+    color: #a6d072;
+    color: #5ab8a0;
+    font: 750 18pt "Arial Rounded Bold";
+}
+
+
+
