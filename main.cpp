@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
         file.close();
     }
 
-    qDebug()<<"StyleSheet:: "<<styleSheetString;
+    //qDebug()<<"StyleSheet:: "<<styleSheetString;
 
 
     MainWindow w;

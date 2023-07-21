@@ -12,6 +12,8 @@
 #include <QDateTime>
 #include <usb_relay_dll/usb_relay_device.h>
 
+#include <QMessageBox>
+
 #include "qdebug.h"
 
 
@@ -45,11 +47,20 @@ private:
     Ui::MainWindow *ui;
 
     QTimer *timerClock;
-    usb_relay_device_info *devices;
+    //usb_relay_device_info *devices;
     usb_relay_device_info *selectedDevice;
 
-    QMap<unsigned char*, usb_relay_device_info*> *deviceMap;
+    QMap<QString, usb_relay_device_info*>deviceMap;
     int deviceHandler;
+
+
+    bool m_bOpened = false;
+
+
+    /*****************************/
+    struct usb_relay_device_info *m_pDeviceList;
+    //int m_hCurDevice;
+    int m_hCureDeviceIndex;
 
 
 };
